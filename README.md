@@ -8,4 +8,5 @@ We will be using:
   + WPF (Windows Presentation Foundation)
   + C#
   + MySQL
+  + nHibernate
 
