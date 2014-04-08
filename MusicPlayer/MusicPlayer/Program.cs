@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Reflection;
+using NHibernate.Cfg;
+using NHibernate.Dialect;
+using NHibernate.Driver;
+
 
 namespace MusicPlayer
 {
@@ -14,6 +19,12 @@ namespace MusicPlayer
       [STAThread]
       static void Main()
       {
+          var configuration = new configuration();
+          configuration.DatabaseIntegration (x => {
+                x.ConnectionString = "Server=champlainmysql.cabect4hsdzs.us-east-1.rds.amazonaws.com; Database=" 
+          });
+
+
          Application.EnableVisualStyles();
          Application.SetCompatibleTextRenderingDefault(false);
          Application.Run(new Form1());
