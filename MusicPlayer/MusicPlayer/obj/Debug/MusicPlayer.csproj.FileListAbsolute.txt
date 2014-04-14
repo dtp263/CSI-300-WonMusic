@@ -6,3 +6,5 @@ C:\Users\Patrick\Desktop\MP3DataBase\CSI-300-WonMusic\CSI-300-WonMusic\MusicPlay
 C:\Users\Patrick\Desktop\MP3DataBase\CSI-300-WonMusic\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Player.resources
 C:\Users\Patrick\Desktop\MP3DataBase\CSI-300-WonMusic\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Properties.Resources.resources
 C:\Users\Patrick\Desktop\MP3DataBase\CSI-300-WonMusic\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.GenerateResource.Cache
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csprojResolveAssemblyReference.cache

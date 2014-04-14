@@ -56,6 +56,9 @@
     <Compile Include="CreateAcount.Designer.cs">
       <DependentUpon>CreateAcount.cs</DependentUpon>
     </Compile>
+    <Compile Include="Domain\Artist.cs" />
+    <Compile Include="Domain\City.cs" />
+    <Compile Include="Domain\Song.cs" />
     <Compile Include="Enter Address.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +113,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mappings\City.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Design\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

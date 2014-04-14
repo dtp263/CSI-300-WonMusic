@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping2.2"
+                   assembly="MusicPlayer"
+                   namespace="MusicPlayer">
+
+
+  <class name="City">
+    <id name="ID" column="CityID">
+      <generator class="identity"/>
+    </id>
+    <property name="Name"/>
+    <property name="PostalCode"/>
+  </class>
+
+
+</hibernate-mapping>
