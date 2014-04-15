@@ -9,3 +9,5 @@ C:\Users\Patrick\Desktop\MP3DataBase\CSI-300-WonMusic\CSI-300-WonMusic\MusicPlay
 C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
 C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csprojResolveAssemblyReference.cache
 C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+C:\Users\Olin\Desktop\Github\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+C:\Users\Olin\Desktop\Github\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csprojResolveAssemblyReference.cache
