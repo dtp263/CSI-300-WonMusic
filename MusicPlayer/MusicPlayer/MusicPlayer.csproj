@@ -62,6 +62,12 @@
     <Compile Include="Design\DisplaySongInfo.Designer.cs">
       <DependentUpon>DisplaySongInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Design\DisplayUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\DisplayUserInfo.Designer.cs">
+      <DependentUpon>DisplayUserInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Domain\Artist.cs" />
     <Compile Include="Domain\City.cs" />
     <Compile Include="Domain\Song.cs" />
@@ -90,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Design\DisplaySongInfo.resx">
       <DependentUpon>DisplaySongInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DisplayUserInfo.resx">
+      <DependentUpon>DisplayUserInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Enter Address.resx">
       <DependentUpon>Enter Address.cs</DependentUpon>
