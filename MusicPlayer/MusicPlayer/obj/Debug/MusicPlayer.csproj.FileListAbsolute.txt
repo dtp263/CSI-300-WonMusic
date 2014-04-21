@@ -32,3 +32,23 @@ C:\Users\Olin\Desktop\github workspace\CSI-300 Project\CSI-300-WonMusic\MusicPla
 C:\Users\Olin\Desktop\github workspace\CSI-300 Project\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.GenerateResource.Cache
 C:\Users\Olin\Desktop\github workspace\CSI-300 Project\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
 C:\Users\Olin\Desktop\github workspace\CSI-300 Project\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.pdb
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\Iesi.Collections.dll
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\NHibernate.dll
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\Iesi.Collections.xml
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\NHibernate.xml
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayAlbum.resources
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayAllSongs.resources
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayArtistInfo.resources
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayPlaylist.resources
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplaySongInfo.resources
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayUserInfo.resources
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.EditSongs.AddSong.resources
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Login.resources
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Player.resources
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Properties.Resources.resources
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.GenerateResource.Cache
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
+C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb

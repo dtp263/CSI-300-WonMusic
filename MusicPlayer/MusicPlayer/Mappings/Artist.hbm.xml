@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<hibernate-mapping xmlns="urn:nhibernate-mapping2.2"
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
                    auto-import="true"
                    assembly="MusicPlayer"
                    namespace="MusicPlayer">
@@ -7,7 +7,7 @@
 
   <class name="Artist" table="Artist">
     <id name="ID" column="ArtistID">
-      <generator class="identity"/>
+      <generator class="native"/>
     </id>
     <property name="Name"/>
     <property name="CountryId"/>

@@ -6,7 +6,7 @@
 
   <class name="Country" table="Country">
     <id name="ID" column="CountryID">
-      <generator class="identity"/>
+      <generator class="native"/>
     </id>
     <property name="Name"/>
   </class>

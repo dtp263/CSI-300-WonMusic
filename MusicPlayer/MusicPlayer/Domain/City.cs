@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MusicPlayer
 {
-    class City
+    public class City
     {
-        public virtual int cityId { get; set; }
+        public virtual int ID { get; set; }
         public virtual string name { get; set; }
         public virtual int postalCode { get; set; }
     }

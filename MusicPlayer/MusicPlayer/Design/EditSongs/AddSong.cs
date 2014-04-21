@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using NHibernate;
 using NHibernate.Cfg;
+using NHibernate.Tool.hbm2ddl;
+using System.Reflection;
 
 namespace MusicPlayer.Design.EditSongs
 {
@@ -43,52 +45,44 @@ namespace MusicPlayer.Design.EditSongs
         private void add_song_button_Click(object sender, EventArgs e)
         {
             myConfiguration = new Configuration();
-            try
-            {
-                myConfiguration.Configure();
-            }
-            catch (Exception)
-            {
-                
-                throw;
-            }
-            try
-            {
-                mySessionFactory = myConfiguration.BuildSessionFactory();
-            }
-            catch (Exception ex)
-            {
-                
-                throw ex;
-            }
+            myConfiguration.AddAssembly(Assembly.GetCallingAssembly());
+            myConfiguration.Configure();
+            mySessionFactory = myConfiguration.BuildSessionFactory();
             mySession = mySessionFactory.OpenSession();
 
             using (mySession.BeginTransaction())
             {
-                Artist newSongArtist = new Artist { Name = artist_textbox.Text };
+                var artists = mySession.QueryOver<Artist>().Where(x => x.Name == artist_textbox.Text);
+
+
+                // TODO this should not be hardcoded
+                Artist newSongArtist = new Artist { Name = artist_textbox.Text, CountryId = 1 };
+
                 try
                 {
                     mySession.SaveOrUpdate(newSongArtist);
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     
-                    throw ex;
+                    throw;
                 }
 
+                
                 // TODO Create and save Album object
 
-                Song newSong = new Song {   title = title_textbox.Text, 
-                                            priceUS = (float)price_input.Value,
-                                            rating = (float)rating_input.Value,
-                                            artistId = newSongArtist.ID,
+                Song newSong = new Song {   Title = title_textbox.Text, 
+                                            PriceUS = (float)price_input.Value,
+                                            Rating = (float)rating_input.Value,
+                                            ArtistId = newSongArtist.ID,
                                             };
                 mySession.SaveOrUpdate(newSong);
 
                 mySession.Transaction.Commit();
             }
+            this.Close();
  
-
+            
 
         }
     }
