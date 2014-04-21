@@ -35,6 +35,7 @@
     <Reference Include="Iesi.Collections">
       <HintPath>..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="NHibernate">
       <HintPath>..\packages\NHibernate.3.3.3.4001\lib\Net35\NHibernate.dll</HintPath>
     </Reference>
@@ -50,58 +51,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreateAcount.cs">
+    <Compile Include="Design\Display\DisplayAlbum.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CreateAcount.Designer.cs">
-      <DependentUpon>CreateAcount.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Design\DisplayAlbum.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design\DisplayAlbum.Designer.cs">
+    <Compile Include="Design\Display\DisplayAlbum.Designer.cs">
       <DependentUpon>DisplayAlbum.cs</DependentUpon>
     </Compile>
-    <Compile Include="Design\DisplayAllSongs.cs">
+    <Compile Include="Design\Display\DisplayAllSongs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Design\DisplayAllSongs.Designer.cs">
+    <Compile Include="Design\Display\DisplayAllSongs.Designer.cs">
       <DependentUpon>DisplayAllSongs.cs</DependentUpon>
     </Compile>
-    <Compile Include="Design\DisplayArtistInfo.cs">
+    <Compile Include="Design\Display\DisplayArtistInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Design\DisplayArtistInfo.Designer.cs">
+    <Compile Include="Design\Display\DisplayArtistInfo.Designer.cs">
       <DependentUpon>DisplayArtistInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Design\DisplayPlaylist.cs">
+    <Compile Include="Design\Display\DisplayPlaylist.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Design\DisplayPlaylist.Designer.cs">
+    <Compile Include="Design\Display\DisplayPlaylist.Designer.cs">
       <DependentUpon>DisplayPlaylist.cs</DependentUpon>
     </Compile>
-    <Compile Include="Design\DisplaySongInfo.cs">
+    <Compile Include="Design\Display\DisplaySongInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Design\DisplaySongInfo.Designer.cs">
+    <Compile Include="Design\Display\DisplaySongInfo.Designer.cs">
       <DependentUpon>DisplaySongInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Design\DisplayUserInfo.cs">
+    <Compile Include="Design\Display\DisplayUserInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Design\DisplayUserInfo.Designer.cs">
+    <Compile Include="Design\Display\DisplayUserInfo.Designer.cs">
       <DependentUpon>DisplayUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\EditSongs\AddSong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\EditSongs\AddSong.Designer.cs">
+      <DependentUpon>AddSong.cs</DependentUpon>
     </Compile>
     <Compile Include="Domain\Artist.cs" />
     <Compile Include="Domain\City.cs" />
     <Compile Include="Domain\Country.cs" />
     <Compile Include="Domain\Song.cs" />
-    <Compile Include="Enter Address.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Enter Address.Designer.cs">
-      <DependentUpon>Enter Address.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,29 +111,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CreateAcount.resx">
-      <DependentUpon>CreateAcount.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Design\DisplayAlbum.resx">
+    <EmbeddedResource Include="Design\Display\DisplayAlbum.resx">
       <DependentUpon>DisplayAlbum.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Design\DisplayAllSongs.resx">
+    <EmbeddedResource Include="Design\Display\DisplayAllSongs.resx">
       <DependentUpon>DisplayAllSongs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Design\DisplayArtistInfo.resx">
+    <EmbeddedResource Include="Design\Display\DisplayArtistInfo.resx">
       <DependentUpon>DisplayArtistInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Design\DisplayPlaylist.resx">
+    <EmbeddedResource Include="Design\Display\DisplayPlaylist.resx">
       <DependentUpon>DisplayPlaylist.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Design\DisplaySongInfo.resx">
+    <EmbeddedResource Include="Design\Display\DisplaySongInfo.resx">
       <DependentUpon>DisplaySongInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Design\DisplayUserInfo.resx">
+    <EmbeddedResource Include="Design\Display\DisplayUserInfo.resx">
       <DependentUpon>DisplayUserInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Enter Address.resx">
-      <DependentUpon>Enter Address.cs</DependentUpon>
+    <EmbeddedResource Include="Design\EditSongs\AddSong.resx">
+      <DependentUpon>AddSong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -170,8 +162,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Mappings\City.hbm.xml" />
-    <Content Include="Mappings\Country.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Artist.hbm.xml" />
+    <EmbeddedResource Include="Mappings\City.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Country.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Song.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

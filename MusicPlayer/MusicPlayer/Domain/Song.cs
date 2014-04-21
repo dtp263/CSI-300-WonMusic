@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MusicPlayer.Domain
+namespace MusicPlayer
 {
-    class Song
+    public class Song
     {
-        int songId { get; set; }
-        string title { get; set; }
-        int lengthSeconds { get; set; }
-        int artistId { get; set; }
-        int albumId { get; set; }
-        int formatId { get; set; }
-        int priceUS { get; set; }
-        int review { get; set; }
-        int bpm { get; set; }
-        int bitRate { get; set; }
+        public virtual int songId { get; set; }
+        public virtual string title { get; set; }
+        public virtual int lengthSeconds { get; set; }
+        public virtual int artistId { get; set; }
+        public virtual int albumId { get; set; }
+        public virtual int formatId { get; set; }
+        public virtual float priceUS { get; set; }
+        public virtual float rating { get; set; }
+        public virtual int bpm { get; set; }
+        public virtual int bitRate { get; set; }
     }
 }

@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MusicPlayer.Domain
+namespace MusicPlayer
 {
-    class Artist
+    public class Artist
     {
-        int artistId { get; set; }
-        string name { get; set; }
-        int CountryId { get; set; }
+        public virtual int ID { get; set; }
+        public virtual string Name { get; set; }
+        public virtual int CountryId { get; set; }
     }
 }

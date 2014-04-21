@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <hibernate-mapping xmlns="urn:nhibernate-mapping2.2"
+                   auto-import="true"
                    assembly="MusicPlayer"
                    namespace="MusicPlayer">
 
 
-  <class name="City">
-    <id name="ID" column="CityID">
+  <class name="Artist" table="Artist">
+    <id name="ID" column="ArtistID">
       <generator class="identity"/>
     </id>
-    <property name="Name" column="Name"/>
-    <property name="PostalCode" column="CountryID"/>
+    <property name="Name"/>
+    <property name="CountryId"/>
   </class>
 
 
 </hibernate-mapping>
+

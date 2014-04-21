@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MusicPlayer.Design.EditSongs;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace MusicPlayer
       public Player()
       {
          InitializeComponent();
+      }
+
+      private void add_a_song_Click(object sender, EventArgs e)
+      {
+          AddSong form = new AddSong();
+          form.Show();
       }
    }
 }

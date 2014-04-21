@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping2.2"
+                   assembly="MusicPlayer"
+                   namespace="MusicPlayer">
+
+
+  <class name="Song">
+    <id name="ID" column="SongID">
+      <generator class="identity"/>
+    </id>
+    <property name="Title"/>
+    <property name="LengthSeconds"/>
+    <property name="ArtistID"/>
+    <property name="AlbumID"/>
+    <property name="FormatID"/>
+    <property name="PriceUS"/>
+    <property name="Rating"/>
+    <property name="Review"/>
+    <property name="BPM"/>
+    <property name="LengthSeconds"/>
+    <property name="BitRate"/>
+  </class>
+
+
+</hibernate-mapping>
