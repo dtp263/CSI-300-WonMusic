@@ -56,6 +56,30 @@
     <Compile Include="CreateAcount.Designer.cs">
       <DependentUpon>CreateAcount.cs</DependentUpon>
     </Compile>
+    <Compile Include="Design\DisplayAlbum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\DisplayAlbum.Designer.cs">
+      <DependentUpon>DisplayAlbum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\DisplayAllSongs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\DisplayAllSongs.Designer.cs">
+      <DependentUpon>DisplayAllSongs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\DisplayArtistInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\DisplayArtistInfo.Designer.cs">
+      <DependentUpon>DisplayArtistInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\DisplayPlaylist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\DisplayPlaylist.Designer.cs">
+      <DependentUpon>DisplayPlaylist.cs</DependentUpon>
+    </Compile>
     <Compile Include="Design\DisplaySongInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +118,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CreateAcount.resx">
       <DependentUpon>CreateAcount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DisplayAlbum.resx">
+      <DependentUpon>DisplayAlbum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DisplayAllSongs.resx">
+      <DependentUpon>DisplayAllSongs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DisplayArtistInfo.resx">
+      <DependentUpon>DisplayArtistInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DisplayPlaylist.resx">
+      <DependentUpon>DisplayPlaylist.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Design\DisplaySongInfo.resx">
       <DependentUpon>DisplaySongInfo.cs</DependentUpon>
