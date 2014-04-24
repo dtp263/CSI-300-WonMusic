@@ -52,3 +52,24 @@ C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer
 C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.GenerateResource.Cache
 C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
 C:\Users\joseph.davis\Desktop\workspace\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.pdb
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\Iesi.Collections.dll
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\NHibernate.dll
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\Iesi.Collections.xml
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\NHibernate.xml
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayAlbum.resources
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayAllSongs.resources
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayArtistInfo.resources
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayPlaylist.resources
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplaySongInfo.resources
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayUserInfo.resources
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.EditSongs.AddSong.resources
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Login.resources
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Player.resources
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Properties.Resources.resources
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.GenerateResource.Cache
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.Display.ChooseDisplay.resources

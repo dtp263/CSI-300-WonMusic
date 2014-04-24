@@ -28,21 +28,22 @@
       /// </summary>
       private void InitializeComponent()
       {
-            this.button1 = new System.Windows.Forms.Button();
+            this.display_button = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.add_a_song = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // display_button
             // 
-            this.button1.Location = new System.Drawing.Point(83, 78);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(145, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Display Music";
-            this.button1.UseVisualStyleBackColor = true;
+            this.display_button.Location = new System.Drawing.Point(83, 78);
+            this.display_button.Name = "display_button";
+            this.display_button.Size = new System.Drawing.Size(145, 23);
+            this.display_button.TabIndex = 0;
+            this.display_button.Text = "Display Music";
+            this.display_button.UseVisualStyleBackColor = true;
+            this.display_button.Click += new System.EventHandler(this.display_button_Click);
             // 
             // button2
             // 
@@ -90,7 +91,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.display_button);
             this.Name = "Player";
             this.Text = "MusicPlayer";
             this.ResumeLayout(false);
@@ -99,7 +100,7 @@
 
       #endregion
 
-      private System.Windows.Forms.Button button1;
+      private System.Windows.Forms.Button display_button;
       private System.Windows.Forms.Button button2;
       private System.Windows.Forms.Button button3;
       private System.Windows.Forms.Button button4;

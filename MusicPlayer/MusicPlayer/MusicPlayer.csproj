@@ -51,6 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Design\Display\ChooseDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Display\ChooseDisplay.Designer.cs">
+      <DependentUpon>ChooseDisplay.cs</DependentUpon>
+    </Compile>
     <Compile Include="Design\Display\DisplayAlbum.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Design\Display\ChooseDisplay.resx">
+      <DependentUpon>ChooseDisplay.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Design\Display\DisplayAlbum.resx">
       <DependentUpon>DisplayAlbum.cs</DependentUpon>
     </EmbeddedResource>
