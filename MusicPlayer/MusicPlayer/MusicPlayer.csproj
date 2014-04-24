@@ -99,9 +99,9 @@
     <Compile Include="Design\EditSongs\AddSong.Designer.cs">
       <DependentUpon>AddSong.cs</DependentUpon>
     </Compile>
+    <Compile Include="Domain\Album.cs" />
     <Compile Include="Domain\Artist.cs" />
-    <Compile Include="Domain\City.cs" />
-    <Compile Include="Domain\Country.cs" />
+    <Compile Include="Domain\Format.cs" />
     <Compile Include="Domain\Song.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -172,13 +172,14 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Mappings\Artist.hbm.xml" />
-    <EmbeddedResource Include="Mappings\City.hbm.xml" />
-    <EmbeddedResource Include="Mappings\Country.hbm.xml" />
     <EmbeddedResource Include="Mappings\Song.hbm.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\Album.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Format.hbm.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

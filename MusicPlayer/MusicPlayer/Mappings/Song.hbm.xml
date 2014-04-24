@@ -11,11 +11,9 @@
     </id>
     <property name="Title"/>
     <property name="LengthSeconds"/>
-    <property name="ArtistId"/>
-    <property name="AlbumId"/>
-    <property name="FormatId"/>
-    <property name="PriceUS"/>
-    <property name="Rating"/>
+    <property name="ArtistID"/>
+    <property name="AlbumID"/>
+    <property name="FormatID"/>
     <property name="BPM"/>
     <property name="BitRate"/>
   </class>

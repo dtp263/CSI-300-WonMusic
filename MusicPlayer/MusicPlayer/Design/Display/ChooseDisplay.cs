@@ -40,8 +40,8 @@ namespace MusicPlayer.Design.Display
                 {
                     String[] row = new string[3];
                     row[0] = item.Title;
-                    row[1] = item.ArtistId.ToString();
-                    row[2] = item.AlbumId.ToString();
+                    row[1] = item.ArtistID.ToString();
+                    row[2] = item.AlbumID.ToString();
                     ListViewItem newItm = new ListViewItem(row);
                     songs_list_view.Items.Add(newItm);
                 }

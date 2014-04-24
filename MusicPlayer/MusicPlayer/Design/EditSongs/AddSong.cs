@@ -52,32 +52,26 @@ namespace MusicPlayer.Design.EditSongs
 
             using (mySession.BeginTransaction())
             {
-                var artists = mySession.QueryOver<Artist>().Where(x => x.Name == artist_textbox.Text);
+                var format_id = 1; // This is the id for an unknown format
+                var length_seconds = 100;
+                var bit_rate = 320;
 
 
-                // TODO this should not be hardcoded
-                Artist newSongArtist = new Artist { Name = artist_textbox.Text, CountryId = 1 };
+                Artist newSongArtist = new Artist();
+                newSongArtist = newSongArtist.getIfExistsOrCreate(artist_textbox.Text, mySession);
+                mySession.SaveOrUpdate(newSongArtist);
 
-                try
-                {
-                    mySession.SaveOrUpdate(newSongArtist);
-                }
-                catch (Exception)
-                {
-                    
-                    throw;
-                }
 
-                
+                Album newAlbum = new Album();
+                newAlbum = newAlbum.getIfExistsOrCreate(album_textbox.Text, newSongArtist.ID, releasedate_picker.Value, mySession);
+                mySession.SaveOrUpdate(newAlbum);
+
+
                 // TODO Create and save Album object
-
-                Song newSong = new Song {   Title = title_textbox.Text, 
-                                            PriceUS = (float)price_input.Value,
-                                            Rating = (float)rating_input.Value,
-                                            ArtistId = newSongArtist.ID,
-                                            };
+                Song newSong = new Song();
+                newSong = newSong.getIfExistsOrCreate(title_textbox.Text, length_seconds, newSongArtist.ID, newAlbum.ID, format_id,(int)bpm_input.Value, bit_rate, mySession);
                 mySession.SaveOrUpdate(newSong);
-
+                
                 mySession.Transaction.Commit();
             }
             this.Close();

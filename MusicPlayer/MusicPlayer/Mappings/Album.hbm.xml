@@ -4,13 +4,14 @@
                    assembly="MusicPlayer"
                    namespace="MusicPlayer">
 
-  <class name="Country" table="Country">
-    <id name="ID" column="CountryID">
+
+  <class name="Album" table="Album">
+    <id name="ID" column="AlbumID">
       <generator class="native"/>
     </id>
-    <property name="Name"/>
+    <property name="ArtistID"/>
+    <property name="Title"/>
+    <property name="ReleaseDate"/>
   </class>
-
-
 </hibernate-mapping>
 

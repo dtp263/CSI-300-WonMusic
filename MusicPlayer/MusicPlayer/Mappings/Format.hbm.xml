@@ -5,13 +5,14 @@
                    namespace="MusicPlayer">
 
 
-  <class name="City" table="City">
-    <id name="ID" column="CityID">
+  <class name="Format" table="Format">
+    <id name="ID" column="FormatID">
       <generator class="native"/>
     </id>
-    <property name="name"/>
-    <property name="postalCode"/>
+    <property name="Name"/>
+    <property name="Extension"/>
   </class>
 
 
 </hibernate-mapping>
+

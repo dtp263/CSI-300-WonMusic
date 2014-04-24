@@ -6,8 +6,6 @@ C:\Users\Patrick\Desktop\MP3DataBase\CSI-300-WonMusic\CSI-300-WonMusic\MusicPlay
 C:\Users\Patrick\Desktop\MP3DataBase\CSI-300-WonMusic\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Player.resources
 C:\Users\Patrick\Desktop\MP3DataBase\CSI-300-WonMusic\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Properties.Resources.resources
 C:\Users\Patrick\Desktop\MP3DataBase\CSI-300-WonMusic\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.GenerateResource.Cache
-C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
-C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csprojResolveAssemblyReference.cache
 C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
 C:\Users\Olin\Desktop\Github\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
 C:\Users\Olin\Desktop\Github\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csprojResolveAssemblyReference.cache
@@ -73,3 +71,25 @@ C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo
 C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Properties.Resources.resources
 C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.GenerateResource.Cache
 C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.Display.ChooseDisplay.resources
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.pdb
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\Iesi.Collections.dll
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\MySql.Data.dll
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\NHibernate.dll
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\Iesi.Collections.xml
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\bin\Debug\NHibernate.xml
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.Display.ChooseDisplay.resources
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayAlbum.resources
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayAllSongs.resources
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayArtistInfo.resources
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayPlaylist.resources
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplaySongInfo.resources
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.DisplayUserInfo.resources
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.EditSongs.AddSong.resources
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Login.resources
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Player.resources
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Properties.Resources.resources
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.GenerateResource.Cache
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
+C:\Users\Olin\Desktop\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb
