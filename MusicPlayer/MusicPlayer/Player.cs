@@ -30,5 +30,11 @@ namespace MusicPlayer
           ChooseDisplay displays = new ChooseDisplay();
           displays.Show();
       }
+
+      private void button4_Click(object sender, EventArgs e)
+      {
+          SearchWnd search = new SearchWnd();
+          search.Show();
+      }
    }
 }

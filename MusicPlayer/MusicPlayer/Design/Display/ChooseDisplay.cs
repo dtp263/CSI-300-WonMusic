@@ -15,22 +15,14 @@ namespace MusicPlayer.Design.Display
 {
     public partial class ChooseDisplay : Form
     {
-        private Configuration myConfiguration;
-        private ISessionFactory mySessionFactory;
-        private ISession mySession;
-        
         public ChooseDisplay()
         {
             InitializeComponent();
         }
 
         private void ChooseDisplay_Load(object sender, EventArgs e)
-        {
-            myConfiguration = new Configuration();
-            myConfiguration.AddAssembly(Assembly.GetCallingAssembly());
-            myConfiguration.Configure();
-            mySessionFactory = myConfiguration.BuildSessionFactory();
-            mySession = mySessionFactory.OpenSession();
+        {            
+            ISession mySession = NHAccess.OpenSession();
 
             using (mySession.BeginTransaction())
             {
@@ -50,6 +42,8 @@ namespace MusicPlayer.Design.Display
 
                 mySession.Transaction.Commit();
             }
+
+            
         }
     }
 }

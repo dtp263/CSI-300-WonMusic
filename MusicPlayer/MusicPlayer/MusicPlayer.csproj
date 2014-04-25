@@ -93,11 +93,23 @@
     <Compile Include="Design\Display\DisplayUserInfo.Designer.cs">
       <DependentUpon>DisplayUserInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Design\Display\SearchWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Display\SearchWnd.designer.cs">
+      <DependentUpon>SearchWnd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Design\EditSongs\AddSong.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Design\EditSongs\AddSong.Designer.cs">
       <DependentUpon>AddSong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\EditSongs\EditSong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\EditSongs\EditSong.Designer.cs">
+      <DependentUpon>EditSong.cs</DependentUpon>
     </Compile>
     <Compile Include="Domain\Album.cs" />
     <Compile Include="Domain\Artist.cs" />
@@ -109,6 +121,7 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="NHAccess.cs" />
     <Compile Include="Player.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,8 +151,14 @@
     <EmbeddedResource Include="Design\Display\DisplayUserInfo.resx">
       <DependentUpon>DisplayUserInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Design\Display\SearchWnd.resx">
+      <DependentUpon>SearchWnd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Design\EditSongs\AddSong.resx">
       <DependentUpon>AddSong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\EditSongs\EditSong.resx">
+      <DependentUpon>EditSong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
