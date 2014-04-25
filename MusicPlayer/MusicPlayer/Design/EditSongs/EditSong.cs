@@ -28,7 +28,8 @@ namespace MusicPlayer.Design.EditSongs
 			using (mySession.BeginTransaction())
 			{
 				Song thisSong = mySession.Get<Song>(1);
-
+				thisSong.Title = TitleFld.Text;
+				mySession.Update(thisSong);
 				mySession.Transaction.Commit();
 			}
 			this.Close();
