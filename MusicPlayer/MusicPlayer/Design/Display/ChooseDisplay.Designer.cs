@@ -45,6 +45,7 @@
             this.title_button.TabIndex = 0;
             this.title_button.Text = "Title";
             this.title_button.UseVisualStyleBackColor = true;
+            this.title_button.Click += new System.EventHandler(this.title_button_Click);
             // 
             // Artist
             // 
@@ -54,6 +55,7 @@
             this.Artist.TabIndex = 1;
             this.Artist.Text = "Artist";
             this.Artist.UseVisualStyleBackColor = true;
+            this.Artist.Click += new System.EventHandler(this.Artist_Click);
             // 
             // album_button
             // 
@@ -63,6 +65,7 @@
             this.album_button.TabIndex = 2;
             this.album_button.Text = "Album";
             this.album_button.UseVisualStyleBackColor = true;
+            this.album_button.Click += new System.EventHandler(this.album_button_Click);
             // 
             // songs_list_view
             // 

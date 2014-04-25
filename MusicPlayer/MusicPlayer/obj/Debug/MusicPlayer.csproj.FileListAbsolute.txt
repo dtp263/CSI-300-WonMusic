@@ -117,3 +117,5 @@ D:\Documents\Important\College\2013-2014\Database Management Systems\Final\CSI-3
 D:\Documents\Important\College\2013-2014\Database Management Systems\Final\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.GenerateResource.Cache
 D:\Documents\Important\College\2013-2014\Database Management Systems\Final\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.Display.SearchWnd.resources
 D:\Documents\Important\College\2013-2014\Database Management Systems\Final\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.EditSongs.EditSong.resources
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.Display.SearchWnd.resources
+C:\Users\Spencer\Dropbox\Champlain\Spring\Database Management Systems\Final Repo\CSI-300-WonMusic\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Design.EditSongs.EditSong.resources

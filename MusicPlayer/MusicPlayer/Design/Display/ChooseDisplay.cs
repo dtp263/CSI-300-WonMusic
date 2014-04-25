@@ -1,6 +1,7 @@
 ﻿using NHibernate;
 using NHibernate.Cfg;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -43,7 +44,79 @@ namespace MusicPlayer.Design.Display
                 mySession.Transaction.Commit();
             }
 
+            this.songs_list_view.ListViewItemSorter = new ListViewTitleComparer();
             
+        }
+
+        private void title_button_Click(object sender, EventArgs e)
+        {
+            this.songs_list_view.ListViewItemSorter = new ListViewTitleComparer();
+        }
+
+        private void Artist_Click(object sender, EventArgs e)
+        {
+            this.songs_list_view.ListViewItemSorter = new ListViewArtistComparer();
+        }
+
+        private void album_button_Click(object sender, EventArgs e)
+        {
+            this.songs_list_view.ListViewItemSorter = new ListViewAlbumComparer();
+        }
+
+
+    }
+
+    class ListViewTitleComparer : IComparer
+    {
+        public ListViewTitleComparer()
+        {
+
+        }
+
+        // This function actually does the comparison     
+        public int Compare(object x, object y)
+        {
+            ListViewItem FirstItem = (ListViewItem)x;
+            ListViewItem SecondItem = (ListViewItem)y;
+
+            return String.Compare(FirstItem.SubItems[0].Text + FirstItem.SubItems[1].Text + FirstItem.SubItems[2].Text,
+                                  SecondItem.SubItems[0].Text + SecondItem.SubItems[1].Text + SecondItem.SubItems[2].Text);
+        }
+    }
+
+    class ListViewArtistComparer : IComparer
+    {
+        public ListViewArtistComparer()
+        {
+
+        }
+
+        // This function actually does the comparison     
+        public int Compare(object x, object y)
+        {
+            ListViewItem FirstItem = (ListViewItem)x;
+            ListViewItem SecondItem = (ListViewItem)y;
+
+            return String.Compare(FirstItem.SubItems[1].Text + FirstItem.SubItems[0].Text + FirstItem.SubItems[2].Text,
+                                  SecondItem.SubItems[1].Text + SecondItem.SubItems[0].Text + SecondItem.SubItems[2].Text);
+        }
+    }
+
+    class ListViewAlbumComparer : IComparer
+    {
+        public ListViewAlbumComparer()
+        {
+
+        }
+
+        // This function actually does the comparison     
+        public int Compare(object x, object y)
+        {
+            ListViewItem FirstItem = (ListViewItem)x;
+            ListViewItem SecondItem = (ListViewItem)y;
+
+            return String.Compare(FirstItem.SubItems[2].Text + FirstItem.SubItems[1].Text + FirstItem.SubItems[0].Text,
+                                  SecondItem.SubItems[2].Text + SecondItem.SubItems[1].Text + SecondItem.SubItems[0].Text);
         }
     }
 }
