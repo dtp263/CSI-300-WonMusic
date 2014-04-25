@@ -38,10 +38,12 @@ namespace MusicPlayer.Design.Display
                 IList<Song> list = criteria.List<Song>();
                 foreach (Song item in list)
                 {
+                    Artist songArtist = mySession.Get<Artist>(item.ArtistID);
+                    Album songAlbum = mySession.Get<Album>(item.AlbumID);
                     String[] row = new string[3];
                     row[0] = item.Title;
-                    row[1] = item.ArtistID.ToString();
-                    row[2] = item.AlbumID.ToString();
+                    row[1] = songArtist.Name;
+                    row[2] = songAlbum.Title;
                     ListViewItem newItm = new ListViewItem(row);
                     songs_list_view.Items.Add(newItm);
                 }
